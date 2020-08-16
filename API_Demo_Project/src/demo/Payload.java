@@ -22,4 +22,12 @@ public class Payload
       		"  \"language\": \"French-IN\"\r\n" + 
       		"}";
 	}
+	public static String updateAdress()
+	{
+		return "{\r\n" + 
+				"\"place_id\":\"6c77c1c9dc6db258bfb91647c457fcb1\",\r\n" + 
+				"\"address\":\"70qqqqqqqqmmer wttttalk, USA\",\r\n" + 
+				"\"key\":\"qaclick123\"\r\n" + 
+				"}";
+	}
 }
