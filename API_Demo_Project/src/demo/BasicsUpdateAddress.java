@@ -2,7 +2,6 @@ package demo;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
-
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 
@@ -28,7 +27,7 @@ public class BasicsUpdateAddress {
 
 		//update or put address value
 		//Update the address
-		String newAddress="bengaluru";
+		String newAddress="bengalutru";
 		String resAddress=given().log().all().
 				queryParam("key","qaclick123").header("Content-Type","application/json").
 				body("{\r\n" + 
@@ -54,6 +53,10 @@ public class BasicsUpdateAddress {
 		JsonPath jsAdd=new JsonPath(getPaceadd);
 		String validateAddress=jsAdd.getString("address");
 		System.out.println(validateAddress);
+		
+		//Testng to validate the address in response
+		
+		
 
 	}
 

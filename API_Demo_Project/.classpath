@@ -113,5 +113,6 @@
 	<classpathentry kind="lib" path="C:/Users/Shudhanshu/Desktop/Api_Udemy/xml-path-4.3.1-dist/xml-path-4.3.1-deps/jakarta.xml.bind-api-2.3.3.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Shudhanshu/Desktop/Api_Udemy/xml-path-4.3.1-dist/xml-path-4.3.1-deps/jaxb-impl-2.3.3.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Shudhanshu/Desktop/Api_Udemy/xml-path-4.3.1-dist/xml-path-4.3.1-deps/tagsoup-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shudhanshu/Desktop/java-client-7.3.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
