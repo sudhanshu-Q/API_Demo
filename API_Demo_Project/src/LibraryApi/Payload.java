@@ -4,15 +4,15 @@ public class Payload
 {
 	public static String addBook()
 	{
-	String addPayload="{\r\n" + 
-		"\r\n" + 
-		"\"name\":\"asSn Appium Automation with Java\",\r\n" + 
-		"\"isbn\":\"bsQWEcd\",\r\n" + 
-		"\"aisle\":\"2WEdf7\",\r\n" + 
-		"\"author\":\"Johnfds WEQWEQfoe\"\r\n" + 
-		"}\r\n" + 
-		"";
-	return addPayload;
+		String addPayload="{\r\n" + 
+				"\r\n" + 
+				"\"name\":\"asSn Appium Automation with Java\",\r\n" + 
+				"\"isbn\":\"bsQWEcd\",\r\n" + 
+				"\"aisle\":\"2WEdf7\",\r\n" + 
+				"\"author\":\"Johnfds WEQWEQfoe\"\r\n" + 
+				"}\r\n" + 
+				"";
+		return addPayload;
 	}
 
 	public static String AddbookVariablePayload(String isbn, String aisle) 
@@ -28,7 +28,7 @@ public class Payload
 				"";
 		return payload;
 	}
-	
-	
+
+
 
 }
