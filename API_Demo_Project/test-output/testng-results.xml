@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5537" started-at="2020-10-17T14:29:19Z" finished-at="2020-10-17T14:29:25Z">
+  <suite name="Default suite" duration-ms="5707" started-at="2020-10-17T17:29:06Z" finished-at="2020-10-17T17:29:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5537" started-at="2020-10-17T14:29:19Z" finished-at="2020-10-17T14:29:25Z">
-      <class name="LibraryApi.AddBookVaribl">
-        <test-method status="PASS" signature="addBook()[pri:0, instance:LibraryApi.AddBookVaribl@4cb2c100]" name="addBook" duration-ms="5507" started-at="2020-10-17T19:59:19Z" finished-at="2020-10-17T19:59:25Z">
+    <test name="Default test" duration-ms="5707" started-at="2020-10-17T17:29:06Z" finished-at="2020-10-17T17:29:11Z">
+      <class name="LibraryApi.AddBookVarible">
+        <test-method status="PASS" signature="addBook()[pri:0, instance:LibraryApi.AddBookVarible@4cb2c100]" name="addBook" duration-ms="5671" started-at="2020-10-17T22:59:06Z" finished-at="2020-10-17T22:59:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addBook -->
-      </class> <!-- LibraryApi.AddBookVaribl -->
+      </class> <!-- LibraryApi.AddBookVarible -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
