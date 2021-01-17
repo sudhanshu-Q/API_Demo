@@ -20,6 +20,7 @@ public class BasicsAddPlace
       body("scope", equalTo("APP"))
       .header("Server", equalTo("Apache/2.4.18 (Ubuntu)"));
 		System.out.println("Add place code");
+		System.out.println("completed");
 	}
 
 }
